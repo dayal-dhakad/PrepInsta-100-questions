@@ -7,6 +7,7 @@ using namespace std;
 bool isArmstrong(int n){
    
     int temp = n;
+    
     int num = n;
     int count = 0;
 
@@ -14,6 +15,7 @@ bool isArmstrong(int n){
     {
         n = n / 10;
         count++;
+        
     }
 
     int sum = 0;
@@ -22,14 +24,18 @@ bool isArmstrong(int n){
         int bit = temp % 10;
         sum += pow(bit, count);
         temp = temp / 10;
+        
     }
 
     if(sum==num){
         return true;
+        
     }
     else{
       return false;
     }
+    
+
 }
 
 int main(){
@@ -47,9 +53,6 @@ for (int i = lower; i < upper; i++)
    }
    
 }
-
-
-
 
 
   

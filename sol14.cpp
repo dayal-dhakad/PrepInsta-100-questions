@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    int number = 151;
+    int number = 153;
     int temp = number;
     int num = number;
     int count = 0;
@@ -26,6 +26,7 @@ int main()
     }
 
     if(sum==num){
+        
         cout<<num<<" is a armstrong number"<<endl;
     }
     else{
