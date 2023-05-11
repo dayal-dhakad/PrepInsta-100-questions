@@ -22,8 +22,12 @@ int main(){
  int sum1 = divisorSum(num1);
  int sum2 = divisorSum(num2);
   
-if (sum1/num1 == sum2/num2)
+  int ans1 = (sum1/num1);
+  int ans2 = (sum2/num2);
+
+if (ans1 == ans2)
 {
+    
     cout<<num1<<" and "<<num2<<" are friendly pairs"<<endl;
 }
 else{
